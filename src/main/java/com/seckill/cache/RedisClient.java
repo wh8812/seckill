@@ -12,7 +12,7 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
 /**
- * 描述：Redis的数据访问对象
+ * 描述：Redis的数据访问对象 set与put操作应该同步
  * @author Hailin
  * @time 2016年7月23日 下午10:33:19
  */
